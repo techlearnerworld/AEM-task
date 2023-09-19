@@ -1,1 +1,6 @@
-/core/components/page/v2/page
+Copy cq:dialog from
+/libs/wcm/foundation/components/title/cq:dialog
+		
+		OR
+		
+/apps/core/wcm/components/title/v2/title/cq:dialog
