@@ -6,3 +6,30 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -D archety
 AEM 6.5
 ==========
 mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype   -DarchetypeVersion=39 -DappTitle="vennila" -DappId="vennila" -DgroupId="com.adobe.aem.guides" -DartifactId="vennila"  -Dpackage="com.adobe.aem.guides" -Dversion="0.0.1-SNAPSHOT"  -DaemVersion="6.5.0" -DincludeDispatcherConfig=n -DincludeExamples=y
+
+
+properties list :
+=============
+https://github.com/adobe/aem-project-archetype#available-properties
+
+
+
+ ~/code/
+    |--- aem-guides-wknd/
+        |--- all/
+        |--- core/
+        |--- ui.apps/
+        |--- ui.apps.structure/
+        |--- ui.config/
+        |--- ui.content/
+        |--- ui.frontend/
+        |--- ui.tests /
+        |--- it.tests/
+        |--- dispatcher/
+        |--- pom.xml
+        |--- README.md
+        |--- .gitignore
+
+
+Run Command : mvn clean install -PautoInstallPackage
+Insdie core : mvn clean install -PautoInstallBundle
