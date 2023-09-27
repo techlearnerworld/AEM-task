@@ -1,0 +1,24 @@
+Editable templat-type to project
+---------------------------------
+/settings/wcm/template-type
+page component ->Template type -> template->Page ->Resonsive grid or layout container ->Content component
+
+
+
+Template type structure
+----------------------
+initial
+jcr:content
+structure 
+policies 
+thumbnail.png
+
+
+
+Template type folders
+-------------------------
+/conf/project/settings/wcm/template-type
+/conf/global/settings/wcm/templat-type
+/apps/setting/wcm/template-type
+/libs/setting/wcm/template-type
+
