@@ -1,0 +1,9 @@
+XFPage Component - XF Template type - XF template - XF
+
+Pagecomponent - Proxy component - /libs/cq/experience-fragments/components/xfpage(Sling:resourceSuperType)
+
+Copy template type from /libs/setting/wcm/template-type/HTML5Page
+
+cq:xfVariantType in initial jcr:content template type
+
+stored under /content/experience-fragments. path
